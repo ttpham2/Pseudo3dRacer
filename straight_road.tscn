@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://5vyepq0h1ncy"]
+
+[ext_resource type="Script" path="res://straight_road.gd" id="1_t3rq6"]
+
+[node name="StraightRoad" type="Node2D"]
+position = Vector2(540, 360)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("1_t3rq6")
+lane_color = Color(1, 1, 1, 1)
+rumble_color = Color(0.239216, 0.717647, 0.498039, 1)
+road_color = Color(0.160784, 0.160784, 0.160784, 1)
+rumble_one_color = Color(0.6, 0, 0, 1)
+rumble_two_color = Color(1, 1, 1, 1)
+ground_color = Color(0, 0.886275, 0, 1)
